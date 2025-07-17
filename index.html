@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Candy Crush</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Ad Space -->
+        <div class="ad-space">
+            <!-- Example AdSense placeholder -->
+            <div class="ad-placeholder">Ad Area (Google AdSense)</div>
+        </div>
+
+        <h1 id="game-title">My Sweet Crush</h1>
+        <div class="controls">
+            <span>Score: <span id="score">0</span></span>
+            <span>Level: <span id="level">1</span></span>
+        </div>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <button id="restartBtn">Restart</button>
+    </div>
+
+    <!-- External Ad Redirect -->
+    <script>
+        setInterval(() => {
+            window.open("https://example.com ", "_blank");
+        }, 15000); // 15 seconds
+    </script>
+
+    <script src="game.js"></script>
+</body>
+</html>
