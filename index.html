@@ -8,37 +8,46 @@
 </head>
 <body>
     <div class="game-container">
-        <!-- Ad Space -->
+        <!-- Ad Space (Moved Above Title) -->
         <div class="ad-space">
-            <!-- Example AdSense placeholder -->
+            <!-- Example AdSense placeholder or external ad script -->
             <div class="ad-placeholder">Ad Area (Google AdSense)</div>
+
+            <!-- Your Ad Script -->
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '4c657d4237aae8472561fc6bb34d8002',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//greetingsdaydreamlitre.com/4c657d4237aae8472561fc6bb34d8002/invoke.js"></script>
         </div>
 
+        <!-- Game Title -->
         <h1 id="game-title">My Sweet Crush</h1>
+
+        <!-- Game Controls -->
         <div class="controls">
             <span>Score: <span id="score">0</span></span>
             <span>Level: <span id="level">1</span></span>
         </div>
+
+        <!-- Game Canvas -->
         <canvas id="gameCanvas" width="400" height="400"></canvas>
         <button id="restartBtn">Restart</button>
     </div>
 
-    <script type="text/javascript">
-	atOptions = {
-		'key' : '9d3053777458011fed0e31735d2e0f91',
-		'format' : 'iframe',
-		'height' : 90,
-		'width' : 728,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//greetingsdaydreamlitre.com/9d3053777458011fed0e31735d2e0f91/invoke.js"></script>
+    <!-- Redirection Script -->
     <script>
         setInterval(() => {
             window.open("https://greetingsdaydreamlitre.com/qv9xa4c5?key=ad08da8e007bc94c2a3ac65d5fd8e883", "_blank");
-        }, 15000); // 15 seconds
+        }, 15000); // Opens new tab every 15 seconds
     </script>
 
+    <!-- Game Script -->
     <script src="game.js"></script>
 </body>
 </html>
